@@ -169,7 +169,7 @@
 </head>
 <body id="top" class="bg-background text-on-background font-body-md overflow-x-hidden">
 <!-- TopAppBar -->
-<header class="header-default fixed top-0 w-full z-50 transition-all duration-500 flex justify-between items-center px-8 h-20 max-w-full">
+<header class="header-default fixed top-0 w-full z-50 transition-all duration-500 flex justify-between items-center px-4 sm:px-8 h-20 max-w-full">
 <a href="#top" class="flex items-center gap-3">
   <img src="images/logo-white_med.png" alt="Alpha Truss logo" class="h-10 w-auto" />
   <span class="header-logo-text text-white text-lg font-bold uppercase tracking-tighter">Alpha Truss</span>
@@ -183,7 +183,9 @@
 <div class="flex gap-4">
 <!-- Desktop only: Resources -->
 <a class="header-button hidden lg:inline-flex font-['Work_Sans'] font-bold uppercase tracking-tight px-4 py-2 border border-white transition-all" href="#resources">Resources</a>
-<a class="header-button header-quote-button font-['Work_Sans'] font-bold uppercase tracking-tight px-6 py-2 border border-white transition-all" href="#contact">Request Quote</a>
+
+<!-- Mobile: compact padding + smaller text | Desktop: normal size -->
+<a class="header-button header-quote-button font-['Work_Sans'] font-bold uppercase tracking-tight px-3 py-1.5 text-xs sm:px-4 sm:py-2 sm:text-sm md:px-6 md:text-base border border-white transition-all" href="#contact">Request Quote</a>
 </div>
 </header>
 <main>
